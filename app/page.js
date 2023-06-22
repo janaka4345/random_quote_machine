@@ -32,9 +32,9 @@ export default function Home() {
       >
         {isLoading ? (
           <>
-            <div className="h-2.5 bg-gray-200 rounded-full  w-48 mb-4"></div>
-            <div className="h-2.5 bg-gray-200 rounded-full  w-48 mb-4"></div>
-            <div className="h-2.5 bg-gray-200 rounded-full  w-48 mb-4"></div>
+            <div className="h-2.5 bg-gray-200 rounded-full  w-96 mb-4"></div>
+            <div className="h-2.5 bg-gray-200 rounded-full  w-96 mb-4"></div>
+            <div className="h-2.5 bg-gray-200 rounded-full  w-96 mb-4"></div>
           </>
         ) : (
           <h1
@@ -46,7 +46,7 @@ export default function Home() {
         )}
         <br />
         {isLoading ? (
-          <div className="h-2 bg-gray-200 rounded-full px] mb-2.5"></div>
+          <div className="h-2 bg-gray-200 rounded-full w-40 mb-2.5"></div>
         ) : (
           <p id="author" className="mb-3 font-normal text-gray-700 ">
             {data.author}
